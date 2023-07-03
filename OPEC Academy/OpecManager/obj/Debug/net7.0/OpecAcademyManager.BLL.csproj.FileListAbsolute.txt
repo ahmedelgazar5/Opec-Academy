@@ -1,0 +1,15 @@
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\bin\Debug\net7.0\OpecAcademyManager.BLL.deps.json
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\bin\Debug\net7.0\OpecAcademyManager.BLL.dll
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\bin\Debug\net7.0\OpecAcademyManager.BLL.pdb
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\bin\Debug\net7.0\OpecDataBase.DAL.dll
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\bin\Debug\net7.0\OpecDataBase.DAL.pdb
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\OpecAcademyManager.BLL.csproj.AssemblyReference.cache
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\OpecAcademyManager.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\OpecAcademyManager.BLL.AssemblyInfoInputs.cache
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\OpecAcademyManager.BLL.AssemblyInfo.cs
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\OpecAcademyManager.BLL.csproj.CoreCompileInputs.cache
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\OpecAcademyManager.BLL.csproj.CopyComplete
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\OpecAcademyManager.BLL.dll
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\refint\OpecAcademyManager.BLL.dll
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\OpecAcademyManager.BLL.pdb
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManager\obj\Debug\net7.0\ref\OpecAcademyManager.BLL.dll

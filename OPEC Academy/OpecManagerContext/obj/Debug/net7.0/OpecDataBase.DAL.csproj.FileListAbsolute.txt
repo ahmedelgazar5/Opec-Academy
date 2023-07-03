@@ -1,0 +1,14 @@
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\bin\Debug\net7.0\OpecDataBase.DAL.deps.json
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\bin\Debug\net7.0\OpecDataBase.DAL.runtimeconfig.json
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\bin\Debug\net7.0\OpecDataBase.DAL.dll
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\bin\Debug\net7.0\OpecDataBase.DAL.pdb
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\OpecDataBase.DAL.csproj.AssemblyReference.cache
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\OpecDataBase.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\OpecDataBase.DAL.AssemblyInfoInputs.cache
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\OpecDataBase.DAL.AssemblyInfo.cs
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\OpecDataBase.DAL.csproj.CoreCompileInputs.cache
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\OpecDataBase.DAL.dll
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\refint\OpecDataBase.DAL.dll
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\OpecDataBase.DAL.pdb
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\OpecDataBase.DAL.genruntimeconfig.cache
+D:\seko\ITI\Craduation Project\web API Project\OPEC Academy\OpecManagerContext\obj\Debug\net7.0\ref\OpecDataBase.DAL.dll
