@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OpecDataBase.DAL;
 
@@ -11,9 +12,11 @@ using OpecDataBase.DAL;
 namespace OpecDataBase.DAL.Migrations
 {
     [DbContext(typeof(OpecAcademyContext))]
-    partial class OpecAcademyContextModelSnapshot : ModelSnapshot
+    [Migration("20230703162203_editRelationLanguageEmployee")]
+    partial class editRelationLanguageEmployee
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,9 +32,6 @@ namespace OpecDataBase.DAL.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Mobile")
                         .IsRequired()
@@ -77,9 +77,6 @@ namespace OpecDataBase.DAL.Migrations
                     b.Property<int>("Hours")
                         .HasColumnType("int");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -113,9 +110,6 @@ namespace OpecDataBase.DAL.Migrations
 
                     b.Property<int>("Enroll_ID")
                         .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Notes")
                         .IsRequired()
@@ -168,9 +162,6 @@ namespace OpecDataBase.DAL.Migrations
                     b.Property<string>("Identity_Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Military")
                         .IsRequired()
@@ -240,9 +231,6 @@ namespace OpecDataBase.DAL.Migrations
                     b.Property<int>("Created_BY")
                         .HasColumnType("int");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -278,9 +266,6 @@ namespace OpecDataBase.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<int>("Lang_Id")
                         .HasColumnType("int");
 
@@ -315,9 +300,6 @@ namespace OpecDataBase.DAL.Migrations
                     b.Property<int>("Course_Id")
                         .HasColumnType("int");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Student_Id")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -341,9 +323,6 @@ namespace OpecDataBase.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -360,9 +339,6 @@ namespace OpecDataBase.DAL.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()

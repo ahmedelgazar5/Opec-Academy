@@ -16,6 +16,7 @@ namespace OPEC_Academy_API.Models
         [ForeignKey("Student_Course_Branch")]
         public int Enroll_ID { get; set; }
         public Enrollments Student_Course_Branch { get; set; }
+        public bool IsDeleted { get; set; } = false;
 
         //    [ForeignKey("Student")]
         //    public int Std_ID { get; set; }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace OpecDataBase.DAL.Models
 {
-    public class Employee
+    public class Employee 
     {
         public int ID { get; set; }
         public string First_Name { get; set; }
@@ -28,7 +28,7 @@ namespace OpecDataBase.DAL.Models
         public List<Course> Courses { get; set; } = new List<Course>();
         public List<Student> Students { get; set; } = new List<Student>();
         public List<Payment> Payments { get; set; } = new List<Payment>();
-
+        public bool IsDeleted { get; set; } = false;
 
     }
 }

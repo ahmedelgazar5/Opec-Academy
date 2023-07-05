@@ -16,7 +16,7 @@ namespace OPEC_Academy_API.Models
         public List<Employee> Employees { get; set; }
         public List<Enrollments> Enrollments { get; set; } = new List<Enrollments>();
 
-
+        public bool IsDeleted { get; set; } = false;
 
 
 

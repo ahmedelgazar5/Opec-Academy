@@ -21,6 +21,6 @@ namespace OpecDataBase.DAL.Models
         public Branch Branch { get; set; }
         public Student Student { get; set; }
         public List<Payment> payments { get; set; } = new List<Payment>();
-
+        public bool IsDeleted { get; set; } = false;
     }
 }

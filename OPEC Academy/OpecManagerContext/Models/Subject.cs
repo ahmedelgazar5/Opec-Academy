@@ -11,6 +11,8 @@ namespace OPEC_Academy_API.Models
         public int Created_BY { get; set; }
         public DateTime Created_At { get; set; }
         public Employee Employee { get; set; }
+
+        public bool IsDeleted { get; set; } = false;
         //[ForeignKey("Course")]
         //public int Crs_ID { get; set; }
         //public Course Course { get; set; }

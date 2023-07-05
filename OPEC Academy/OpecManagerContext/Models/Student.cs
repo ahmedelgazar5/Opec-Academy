@@ -38,6 +38,8 @@ namespace OPEC_Academy_API.Models
         public Employee Employee { get; set; }
         public Religion Religion { get; set; }
         public List<Enrollments> Enrollments { get; set; } = new List<Enrollments>();
+
+        public bool IsDeleted { get; set; } = false;
         //[ForeignKey("Course")]
         //public int Crs_ID { get; set; }
         //public Course Course { get; set; }

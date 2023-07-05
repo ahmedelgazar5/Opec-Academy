@@ -10,6 +10,7 @@ namespace OpecDataBase.DAL.Models
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public Employee Employee { get; set; }
+        public List<Employee> Employees { get; set; } = new List<Employee>();
+        public bool IsDeleted { get; set; } = false;
     }
 }

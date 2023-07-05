@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OpecDataBase.DAL;
 
@@ -11,9 +12,11 @@ using OpecDataBase.DAL;
 namespace OpecDataBase.DAL.Migrations
 {
     [DbContext(typeof(OpecAcademyContext))]
-    partial class OpecAcademyContextModelSnapshot : ModelSnapshot
+    [Migration("20230703165036_softDelete")]
+    partial class softDelete
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
