@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using OPEC_Academy_API.Models;
 using OpecAcademyManager.BLL.Repository;
+using OpecAcademyManager.BLL.Repository.BranchREpo;
+using OpecAcademyManager.BLL.Repository.ReligionRepo;
 using OpecDataBase.DAL;
 using System.Security.Principal;
 
@@ -22,6 +24,9 @@ namespace OPEC_Academy_API
 
             // Register Repositories 
             builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+            builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+            builder.Services.AddScoped<IBranchRepository, BranchRepository>();
+            builder.Services.AddScoped<IReligionRepository, ReligionRepository>();
 
             // Register OpecAcademy
             builder.Services.AddDbContext<OpecAcademyContext>(options =>
